@@ -1,26 +1,17 @@
 # Site settings
-title: AUV-IITK
-email: iitkauv@gmail.com
-copyright_name: AUV-IITK
-github_username: AUV-IITK
-
-collections:
-  vehicles :
-  teams:
-  subteam :
-  competition :
-  research :
-  people:
+title: BLOG
+email: info@i2.si
+copyright_name: Kailasa Partners Ltd.
 
 # used to estimate reading time
 wpm: 150
 
 port: 4444
-permalink: /blog/:title
+permalink: /:title
 
 # jekyll-paginate
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: /page:num
 
 # gem dependencies
 gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
