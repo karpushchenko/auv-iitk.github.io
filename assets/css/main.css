@@ -3532,3 +3532,17 @@ body.is-loading #header.alt .logo {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
+/* POST STYLING
+=========================================*/
+
+.post-title,
+.post-subtitle {
+    text-align: center;
+}
+
+.post-image {
+    width: 50%;
+    margin: 0 auto;
+}
