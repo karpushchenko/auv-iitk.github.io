@@ -2,7 +2,7 @@
 layout: post
 title: i2 Browser ver. 1.8.0 Changelog
 subtitle: New version is out!
-date: {}
+date: 2016-11-30T00:02:00.000Z
 author: i2 Team
 header-img: /images/posts/pic04.jpg
 comments: true
@@ -12,6 +12,7 @@ tags:
 published: true
 ---
 Version 1.8.0 of i2 Browser is released. What’s new and what has changed:
+
 - Redesigned installer (includes Software License Agreement and installation of Adobe Flashplayer)
 - The code base is updated to Chromium 54
 - Added x64 version of the browser for Windows

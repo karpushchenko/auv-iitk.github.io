@@ -22,14 +22,15 @@ description: What's in and around the i2 Browser
                         {% if post.header-img != "/images/posts/pic04.jpg" %}
                         <img class="post-image img-responsive" src="{{ post.header-img }}" alt="" />
                         {% endif %}
+                        <br>
                         {% if post.subtitle %}
                         <h3 class="post-subtitle">
                             {{ post.subtitle }}
                         </h3>
                         {% endif %}
                     </a>
-                    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-                    {{ post.excerpt }}
+                    <p class="post-meta" style="font-style: italic;">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                    {{ post.content }}
                 </div>
                 <hr>
                 {% endfor %}
