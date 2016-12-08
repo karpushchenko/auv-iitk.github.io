@@ -3546,3 +3546,8 @@ body.is-loading #header.alt .logo {
     width: 50%;
     margin: 0 auto;
 }
+
+.youtube {
+    display: block;
+    margin: 0 auto;
+}

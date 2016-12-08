@@ -15,4 +15,4 @@ How can the average user make a profit for viewing websites? If you think that t
 
 <br>
 
-<div style="display: block; margin: 0 auto; width: 560px; height: 420px;">{% youtube ebVuFdlvWPA %}</div>
+{% include i2video.html %}
