@@ -25,3 +25,5 @@ Version 1.8.0 of i2 Browser is released. What’s new and what has changed:
 - Fixed a bug with the functioning of the «Back» button on some sites
 - Fixed a bug occuring when you close a window in incognito mode
 
+We are constantly improving, so please let us know if you have any suggestions. [Contact us](mailto:info@i2.si)
+
